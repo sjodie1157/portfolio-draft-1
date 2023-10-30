@@ -1,0 +1,70 @@
+@media screen and (width<=720px) {
+    #box1 {
+        height: auto;
+        width: auto;
+    }
+
+    
+    img[alt=bgimg] {
+        display: none;
+    }
+
+    .text1 h1 {
+        font-size:24px;
+        font-weight: 600;
+    }
+
+    
+    .text2 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #aboutme, 
+    #contactme, 
+    #downloadcv {
+        margin: 0.2em 0.2em ;
+    }
+
+    #button-wrap {
+        flex-direction: column;
+    }
+
+    img[alt=logo] {
+        width: 35px;
+    }
+}
+
+@media screen and (720px<width) {
+    #box1 {
+        height: auto;
+        width: auto;
+    }
+
+
+    .text1 h1 {
+        font-size:60px;
+        font-weight: 600;
+    }
+    
+    .text2 {
+        font-size: 35px;
+        font-weight: 400;
+
+    }
+        
+    img[alt=bgimg] {
+        display: none;
+    }
+    
+
+    #aboutme, 
+    #contactme, 
+    #downloadcv {
+    }
+
+    img[alt=logo] {
+        width: 35px;
+    }
+}
+
