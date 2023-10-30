@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* bg body */
+
 #box1 {
     position: relative;
     right: 3%;
@@ -15,14 +17,25 @@
     height: 94vh;
 }
 
+body {
+    background-color: forestgreen;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* home page image */
+
 img[alt=bgimg] {
     position: absolute;
     top: 5%;
     left: 59%;
-    width: 44%
+    width: 44%;
+    height: 99%;
 }
 
+/* home page text */
+
 .text1 h1 {
+    padding: 0 0 0 .2em;
     width: 80%;
     font-size: 115px;
     font-weight: 600;
@@ -30,40 +43,10 @@ img[alt=bgimg] {
 }
 
 .text2 {
+    padding: 0 0 0 .4em;
     font-size: 60px;
-    width: 60%;
+    width: 50%;
     font-weight: 600;
-    color: white;
-}
-
-
-#aboutme, 
-#contactme, 
-#downloadcv {
-    border: 2px solid forestgreen;
-    color: forestgreen;
-}
-
-#aboutme, 
-#contactme, 
-#downloadcv, h4 {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-}
-
-#downloadcv:hover {
-    background-color: forestgreen;
-    color: white;
-}
-
-#aboutme:hover {
-    background-color: forestgreen;
-    color: white;
-}
-
-#contactme:hover {
-    background-color: forestgreen;
     color: white;
 }
 
@@ -71,7 +54,15 @@ img[alt=bgimg] {
     color: forestgreen;
 }
 
-body {
+/* buttons */
+
+.buttons a {
+    margin: 5em 2em 2em 0;
+    border: 2px solid forestgreen;
+    color: forestgreen;
+}
+
+.buttons a:hover {
     background-color: forestgreen;
-    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
 }
