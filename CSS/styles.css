@@ -1,0 +1,77 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+#box1 {
+    position: relative;
+    right: 3%;
+    background-color: black;
+    border-radius: 2.5%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 94vh;
+}
+
+img[alt=bgimg] {
+    position: absolute;
+    top: 5%;
+    left: 59%;
+    width: 44%
+}
+
+.text1 h1 {
+    width: 80%;
+    font-size: 115px;
+    font-weight: 600;
+    color: white;
+}
+
+.text2 {
+    font-size: 60px;
+    width: 60%;
+    font-weight: 600;
+    color: white;
+}
+
+
+#aboutme, 
+#contactme, 
+#downloadcv {
+    border: 2px solid forestgreen;
+    color: forestgreen;
+}
+
+#aboutme, 
+#contactme, 
+#downloadcv, h4 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+#downloadcv:hover {
+    background-color: forestgreen;
+    color: white;
+}
+
+#aboutme:hover {
+    background-color: forestgreen;
+    color: white;
+}
+
+#contactme:hover {
+    background-color: forestgreen;
+    color: white;
+}
+
+.textcolor {
+    color: forestgreen;
+}
+
+body {
+    background-color: forestgreen;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
