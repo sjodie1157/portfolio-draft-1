@@ -4,8 +4,7 @@
         display: none;
     }
 
-    #box1,#box2 {
-        right: auto;
+    #box1,#box2,#box3 {
         width: 100%;
         height: fit-content;
     }
@@ -48,14 +47,9 @@
         display: none;
     }
 
-    #box1, #box2 {
-        width: fit-content;
+    #box1,#box2,#box3 {
+        width: 100%;
         height: fit-content;
-    }
-
-    #box2 {
-        position: relative;
-        right: 1.4em;
     }
     
     .text1 h1 {
