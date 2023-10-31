@@ -98,10 +98,32 @@ img[alt=bgimg] {
 .cicon {
     display: flex;
     justify-content: center;
-    height: 30px;
+    align-items: center;
+    height: 15px;
     width: 15px;
 }
 
-#circle1, #circle2{
-
+.line {
+    font-size: 3em;
+    color: forestgreen;
 }
+
+#circle1 {
+    width: 6px;
+    color: white;
+    z-index: 1;
+}
+
+#circle2 {
+    width: 30px;
+    color: forestgreen
+}
+
+#Y2019, #Y2020, #Y2023, h5 {
+    color: white;
+}
+
+#Y2019, #Y2020, #Y2023, h6 {
+    color: forestgreen
+}
+
