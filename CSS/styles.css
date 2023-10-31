@@ -92,38 +92,16 @@ img[alt=bgimg] {
 
 /* experience page */
 
-#cicon {
-    display: flex;
-    align-items: center;
-}
-#cicon svg {
+.cicon svg {
     position: absolute;
 }
-
-#c1 {
-    position: relative;
-    color: white;
+.cicon {
+    display: flex;
+    justify-content: center;
+    height: 30px;
     width: 15px;
-    z-index: 1;
 }
 
-#c2 {
-    width: 30px;
-}
+#circle1, #circle2{
 
-#exline {
-    font-size: 4em;
-}
-
-#c2,#exline {
-    margin: 1em;
-    color: forestgreen;
-}
-
-#text2of3 h5, h6 {
-    color: white;
-}
-
-#text2of3 p {
-    color: forestgreen;
 }

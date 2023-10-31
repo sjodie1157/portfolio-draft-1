@@ -39,6 +39,11 @@
     .text2of2 {
         font-size: 15px;
     }
+
+    #lineicon1, #lineicon2, #lineicon3 {
+        display: block;
+        display: none;
+    }
 }
 
 @media screen and (321px<=width<=720px) {
