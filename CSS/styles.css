@@ -7,7 +7,7 @@
 
 /* bg body */
 
-#box1, #box2, #box3 {
+#box1, #box2, #box3, #box4 {
     position: relative;
     right: 2%;
     background-color: black;
@@ -127,3 +127,42 @@ img[alt=bgimg] {
     color: forestgreen
 }
 
+/* Skills */
+
+
+img[alt=CSS],img[alt=html],img[alt=bs] {
+    position: absolute;
+    width: 100px;
+}
+img[alt=CSSc],img[alt=htmlc],img[alt=bsc] {
+    width: 100px;
+}
+
+img[alt=CSS]:hover {
+    display: block;
+    display: none;
+}
+
+img[alt=html]:hover {
+    display: block;
+    display: none;
+}
+
+img[alt=bs]:hover {
+    display: block;
+    display: none;
+}
+
+#skillstext h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s;
+
+}
+
+#skillstext h2:hover {
+    display: flex;
+    justify-content: center;
+    color: forestgreen;
+}
