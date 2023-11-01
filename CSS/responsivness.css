@@ -4,9 +4,26 @@
         display: none;
     }
 
-    #box1,#box2,#box3 {
+    #box1,#box2,#box3,#box4 {
         width: 100%;
         height: fit-content;
+    }
+
+    img[alt=CSS],img[alt=html],img[alt=bs] {
+        position: absolute;
+        width: 60px;
+    }
+
+    img[alt=CSSc],img[alt=htmlc],img[alt=bsc] {
+        width: 60px;
+    }
+
+    #skillstext h2 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        transition: all 0.3s;
+        font-size: 10px;
     }
 
     .text1 h1 {
