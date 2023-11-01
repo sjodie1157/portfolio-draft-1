@@ -32,7 +32,8 @@
     }
     
     .text1of2 h1 {
-        font-size: 40px;
+        font-size: 34px;
+        width: 100%;
         font-weight: 600;
     }
 
@@ -40,9 +41,13 @@
         font-size: 15px;
     }
 
-    #lineicon1, #lineicon2, #lineicon3 {
+    #lineicon1, #lineicon2, #lineicon3, .cicon, .line {
         display: block;
         display: none;
+    }
+
+    #Y2019, #Y2020, #Y2023, h5, h6 {
+        font-size: 15px;
     }
 }
 
