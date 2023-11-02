@@ -7,7 +7,7 @@
 
 /* bg body */
 
-#box1, #box2, #box3, #box4, #box5 {
+#box1, #box2, #box3, #box4, #box5, #box6 {
     position: relative;
     right: 2%;
     background-color: black;
@@ -181,4 +181,18 @@ img[alt=mobicare], img[alt=keyboard],
 img[alt=calculator]{
     width: 200px;
     border-radius: 2%;
+}
+
+img[alt=zubair] {
+    width: 200px;
+}
+
+#ref1 p {
+    margin: 1em;
+    font-size: 20px;
+    width: 50%;
+    color: forestgreen;
+}
+
+#ref1 {
 }

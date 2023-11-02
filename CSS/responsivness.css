@@ -4,7 +4,7 @@
         display: none;
     }
 
-    #box1,#box2,#box3,#box4,#box5 {
+    #box1,#box2,#box3,#box4,#box5,#box6 {
         width: 100%;
         height: fit-content;
     }
@@ -74,7 +74,7 @@
         display: none;
     }
 
-    #box1,#box2,#box3,#box4,#box5 {
+    #box1,#box2,#box3,#box4,#box5,#box6 {
         width: 100%;
         height: fit-content;
     }
