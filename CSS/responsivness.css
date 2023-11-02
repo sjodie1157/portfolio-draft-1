@@ -167,6 +167,30 @@
         display: block;
         display: none;
     }
+
+    img[alt=CSS],img[alt=html],img[alt=bs] {
+        position: absolute;
+        width: 60px;
+    }
+
+    img[alt=CSSc],img[alt=htmlc],img[alt=bsc] {
+        width: 60px;
+    }
+
+    #skillstext h2,h4 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        transition: all 0.3s;
+        font-size: 10px;
+    }
+
+    #lineicon1, #lineicon2, #lineicon3, .cicon, .line {
+        display: block;
+        display: none;
+    }
+
+
 }
 
 @media screen and (721px<=width<=1080px) {
