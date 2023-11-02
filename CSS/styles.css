@@ -7,7 +7,7 @@
 
 /* bg body */
 
-#box1, #box2, #box3, #box4 {
+#box1, #box2, #box3, #box4, #box5 {
     position: relative;
     right: 2%;
     background-color: black;
@@ -153,7 +153,7 @@ img[alt=bs]:hover {
     display: none;
 }
 
-#skillstext h2 {
+#skillstext h2,h4 {
     display: flex;
     justify-content: center;
     color: white;
@@ -165,4 +165,20 @@ img[alt=bs]:hover {
     display: flex;
     justify-content: center;
     color: forestgreen;
+}
+
+/* past projects */
+
+#PPbr1 a {
+    color: white;
+    background-color: forestgreen;
+    margin: 1em 0;   
+}
+
+
+img[alt=gameonopolis], img[alt=netflix], 
+img[alt=mobicare], img[alt=keyboard], 
+img[alt=calculator]{
+    width: 200px;
+    border-radius: 2%;
 }
