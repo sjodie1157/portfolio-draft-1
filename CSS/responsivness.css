@@ -82,6 +82,23 @@
         display: flex;
         flex-direction: column;
     }
+
+    
+    img[alt=usericon], img[alt=emailicon], img[alt=messageicon] {
+       display: block;
+       display: none;
+    }
+
+    #contacttext h2, p {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    img[alt=lnkdin], img[alt=github] {
+        display: block;
+        display: none;
+    }
 }
 
 @media screen and (321px<=width<=720px) {
@@ -133,6 +150,22 @@
     #ref1 {
         display: flex;
         flex-direction: column;
+    }
+
+    img[alt=usericon], img[alt=emailicon], img[alt=messageicon] {
+        display: block;
+        display: none;
+    }
+
+    #contacttext h2, p {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    img[alt=lnkdin], img[alt=github] {
+        display: block;
+        display: none;
     }
 }
 
