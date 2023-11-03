@@ -225,6 +225,16 @@
 }
 
 @media screen and (721px<=width<=1080px) {
+    #box1,#box2,#box3,#box4,#box5,#box6,#box7 {
+        width: 120%;
+        height: fit-content;
+    }
+
+    
+    nav h2 {
+        font-size: 24px;
+    }
+
     .text1 h1 {
         font-size: 85px;
         font-weight: 600;
