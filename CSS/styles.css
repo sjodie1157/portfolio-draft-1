@@ -258,3 +258,7 @@ img[alt=lnkdin], img[alt=github] {
     color: white;
     border-radius: 25%;
 }
+
+nav h2 {
+    font-size: 24px;
+    }
