@@ -149,6 +149,8 @@
     }
 
     img[alt=zubair],img[alt=joel],img[alt=nishaat],img[alt=joel2] {
+        position: relative;
+        left: 25%;
         width: 100px;
         margin: 0 0 1em 3em;
     }
@@ -255,13 +257,15 @@
     }
 
     img[alt=zubair],img[alt=joel],img[alt=nishaat],img[alt=joel2] {
+        position: relative;
+        left: 25%;
         width: 100px;
         margin: 0 0 1em 3em;
     }
 
     #ref1 p {
         margin: 1em 0 1em 3em;
-        font-size: 10px;
+        font-size: 20px;
         justify-content: center;
     }
 
