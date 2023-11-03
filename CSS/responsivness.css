@@ -99,6 +99,18 @@
         display: block;
         display: none;
     }
+
+    #footbtn{
+        display: block;
+        display: none;
+    }
+
+    .copy {
+        position: relative;
+        left: 10em;
+        width: fit-content;
+        font-size: 7px;
+    }
 }
 
 @media screen and (321px<=width<=720px) {
@@ -188,6 +200,25 @@
     #lineicon1, #lineicon2, #lineicon3, .cicon, .line {
         display: block;
         display: none;
+    }
+
+    .copy {
+        position: relative;
+        left: 10em;
+        width: fit-content;
+        font-size: 11px;
+    }
+
+    #footbtn{
+        position: relative;
+        bottom: 1em;
+        left: 1em;
+        font-weight: 1em;
+        font-size: 30px;
+        background-color: black;
+        border: 3px solid forestgreen;
+        color: white;
+        border-radius: 25%;
     }
 
 
